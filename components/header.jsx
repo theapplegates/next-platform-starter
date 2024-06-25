@@ -32,15 +32,7 @@ export function Header() {
                     ))}
                 </ul>
             )}
-            <div className="flex-grow justify-end hidden lg:flex lg:mr-1">
-                <Link
-                    href="https://github.com/netlify-templates/next-platform-starter"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <Image src={githubLogo} alt="GitHub logo" className="w-7" />
-                </Link>
-            </div>
+
         </nav>
     );
 }
